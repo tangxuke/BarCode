@@ -1,0 +1,314 @@
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.frm_login.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.frm_Main.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\bin\Debug\BarCode.exe
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\bin\Debug\BarCode.pdb
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.exe
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.pdb
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.frm_Main.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_BCP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_LXFL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_LXFL_Detail.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_WLSJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_WLYD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_PTFL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_PTFL_Detail.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_FULIAO.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_YB.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_YBWP_CANCEL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_YBWP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBCPBF.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBCPSJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBF.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPFJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPFL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPSJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLP_QUERY.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_TH.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_BCP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_CANCEL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_FINISH.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_SJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPBF.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPFL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPSJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPYD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLPCK.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLPRK.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_Copy.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_NewMade.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_Split.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_DL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_TODL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_JC.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_JCHD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_XJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_XJHD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.FRM_BF.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFCANCEL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFCK.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFOUT.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CWH.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CWH2.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.FRM_CX_CWH_GROUP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_Detail.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_PC.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_XH.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_NewStock.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_ShowFld.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_ShowPld.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputBack.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputMateriel.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_WORKSHOP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_TM_QUERY.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputBCP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\bin\Debug\Media\NG.wav
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\bin\Debug\Media\OK.wav
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_inputQuery.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CP.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CP_MOVE.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CPWS_Main.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.尾数管理.frm_CP_WSCKD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.尾数管理.frm_CP_WSRKD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_FL_PCCONTROL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_BCPSJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_PLDDL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_FLDDL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_USERID.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_CODECHECK.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBFL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBMANAGER.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBJC.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_DL_SJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.FRM_BFSJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBCWHQUERY.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBQUERY.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.收料.FRM_SL_ZZPC.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBQXFL.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBSJ.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBYD.resources
+C:\Documents and Settings\Administrator\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.FRM_JC_TLDL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.frm_login.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.frm_Main.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.Properties.Resources.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBCPBF.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBCPSJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBF.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPFJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPFL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPSJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLP_QUERY.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_TH.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_BCP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_CANCEL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_FINISH.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_SJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPBF.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPFL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPSJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPYD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.frm_Main.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLPCK.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLPRK.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_Copy.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_NewMade.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_Split.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_BCP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_LXFL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_LXFL_Detail.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_FL_PCCONTROL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_PTFL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_PTFL_Detail.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_FULIAO.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_ShowFld.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_ShowPld.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_YB.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_YBWP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_YBWP_CANCEL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_DL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_TODL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_JC.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_JCHD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_XJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_XJHD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.FRM_BF.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFCANCEL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFCK.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFOUT.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.FRM_BFSJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.收料.FRM_SL_ZZPC.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CWH.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CWH2.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.FRM_CX_CWH_GROUP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_Detail.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_PC.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_XH.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_BCPSJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_DL_SJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.FRM_JC_TLDL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_WLSJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_WLYD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_NewStock.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CP_MOVE.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CPWS_Main.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.尾数管理.frm_CP_WSCKD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.成品管理.尾数管理.frm_CP_WSRKD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBCWHQUERY.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBFL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBJC.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBMANAGER.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBQUERY.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBQXFL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBSJ.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBYD.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_CODECHECK.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_FLDDL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputBack.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputBCP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputMateriel.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_inputQuery.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_PLDDL.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_SK_OUTPUT.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_TM_QUERY.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_USERID.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_WORKSHOP.resources
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.csproj.GenerateResource.Cache
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.exe
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\bin\Debug\Media\NG.wav
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\bin\Debug\Media\OK.wav
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\bin\Debug\BarCode.exe
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\bin\Debug\BarCode.pdb
+C:\Documents and Settings\ghd\桌面\BarCode\BarCode\obj\Debug\BarCode.pdb
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.frm_login.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.frm_Main.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.Properties.Resources.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBCPBF.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBCPSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPBF.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPFJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPFL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLPSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_BLP_QUERY.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_TH.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_BCP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_CANCEL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_FINISH.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BLP.FRM_THQD_SJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPBF.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPFL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.BCP.frm_BCPYD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.frm_Main.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLPCK.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.不良品.frm_BLPRK.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_Copy.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_NewMade.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.制作标签.frm_BQ_Split.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_BCP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_LXFL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_LXFL_Detail.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_FL_PCCONTROL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_PTFL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_PTFL_Detail.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_FULIAO.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_ShowFld.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_ShowPld.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_YB.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_YBWP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_YBWP_CANCEL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_PTFL_Detail2.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_DL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_TODL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_JC.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_JCHD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_XJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.复检.frm_FJ_XJHD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.FRM_BF.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFCANCEL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFCK.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.frm_BFOUT.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.报废.FRM_BFSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.收料.FRM_SL_ZZPC.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CWH.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_CWH2.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.FRM_CX_CWH_GROUP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_Detail.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_PC.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.查询.frm_CX_XH.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_BCPSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.呆料.FRM_DL_SJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.FRM_JC_TLDL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.FRM_JC_TLSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_WLSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_JC_WLYD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_NewStock.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CP_MOVE.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.成品管理.frm_CPWS_Main.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.成品管理.尾数管理.frm_CP_WSCKD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.成品管理.尾数管理.frm_CP_WSRKD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBCWHQUERY.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBFL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBJC.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBMANAGER.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBQUERY.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBQXFL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.设备管理.FRM_SBYD.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_CODECHECK.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_FLDDL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputBCP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputMateriel.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_inputQuery.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_PLDDL.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_SK_OUTPUT.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_TM_QUERY.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_USERID.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.FRM_WORKSHOP.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.csproj.GenerateResource.Cache
+C:\Users\jzp\Desktop\BarCode\BarCode\bin\Debug\Media\NG.wav
+C:\Users\jzp\Desktop\BarCode\BarCode\bin\Debug\Media\OK.wav
+C:\Users\jzp\Desktop\BarCode\BarCode\bin\Debug\BarCode.exe
+C:\Users\jzp\Desktop\BarCode\BarCode\bin\Debug\BarCode.pdb
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.exe
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.pdb
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.frm_FL_LXFL_Detail2.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.车间管理.frm_InputBack.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.FRM_INBOX.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.进仓.frm_WXSJ.resources
+C:\Users\jzp\Desktop\BarCode\BarCode\obj\Debug\BarCode.原材料.发料.FRM_UPDATE_ZZPC.resources

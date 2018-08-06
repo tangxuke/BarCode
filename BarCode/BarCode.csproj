@@ -1,0 +1,1283 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A8D2A11-94A4-4E44-9A8C-E1B619129E84}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BarCode</RootNamespace>
+    <AssemblyName>BarCode</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>BarCode</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Windowsce.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonClass.cs" />
+    <Compile Include="DataClass.cs" />
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLP.resx">
+      <DependentUpon>FRM_BLP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLPBCPBF.resx">
+      <DependentUpon>FRM_BLPBCPBF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLPBCPSJ.resx">
+      <DependentUpon>FRM_BLPBCPSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLPBF.resx">
+      <DependentUpon>FRM_BLPBF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLPFJ.resx">
+      <DependentUpon>FRM_BLPFJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLPFL.resx">
+      <DependentUpon>FRM_BLPFL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLPSJ.resx">
+      <DependentUpon>FRM_BLPSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_BLP_QUERY.resx">
+      <DependentUpon>FRM_BLP_QUERY.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_TH.resx">
+      <DependentUpon>FRM_TH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_THQD.resx">
+      <DependentUpon>FRM_THQD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_THQD_BCP.resx">
+      <DependentUpon>FRM_THQD_BCP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_THQD_CANCEL.resx">
+      <DependentUpon>FRM_THQD_CANCEL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_THQD_FINISH.resx">
+      <DependentUpon>FRM_THQD_FINISH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="不良品\FRM_THQD_SJ.resx">
+      <DependentUpon>FRM_THQD_SJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="半成品\frm_BCP.resx">
+      <DependentUpon>frm_BCP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="半成品\frm_BCPBF.resx">
+      <DependentUpon>frm_BCPBF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="半成品\frm_BCPFL.resx">
+      <DependentUpon>frm_BCPFL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="半成品\frm_BCPSJ.resx">
+      <DependentUpon>frm_BCPSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="半成品\frm_BCPYD.resx">
+      <DependentUpon>frm_BCPYD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\不良品\frm_BLP.resx">
+      <DependentUpon>frm_BLP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\不良品\frm_BLPCK.resx">
+      <DependentUpon>frm_BLPCK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\不良品\frm_BLPRK.resx">
+      <DependentUpon>frm_BLPRK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\制作标签\frm_BQ.resx">
+      <DependentUpon>frm_BQ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\制作标签\frm_BQ_Copy.resx">
+      <DependentUpon>frm_BQ_Copy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\制作标签\frm_BQ_NewMade.resx">
+      <DependentUpon>frm_BQ_NewMade.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\制作标签\frm_BQ_Split.resx">
+      <DependentUpon>frm_BQ_Split.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL.resx">
+      <DependentUpon>frm_FL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL_BCP.resx">
+      <DependentUpon>frm_FL_BCP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL_LXFL.resx">
+      <DependentUpon>frm_FL_LXFL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL_LXFL_Detail.resx">
+      <DependentUpon>frm_FL_LXFL_Detail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\FRM_FL_PCCONTROL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FRM_FL_PCCONTROL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL_PTFL.resx">
+      <DependentUpon>frm_FL_PTFL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL_PTFL_Detail.resx">
+      <DependentUpon>frm_FL_PTFL_Detail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\FRM_FULIAO.resx">
+      <DependentUpon>FRM_FULIAO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_ShowFld.resx">
+      <DependentUpon>frm_ShowFld.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_ShowPld.resx">
+      <DependentUpon>frm_ShowPld.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\FRM_YB.resx">
+      <DependentUpon>FRM_YB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_YBWP.resx">
+      <DependentUpon>frm_YBWP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\FRM_YBWP_CANCEL.resx">
+      <DependentUpon>FRM_YBWP_CANCEL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL_PTFL_Detail2.resx">
+      <DependentUpon>frm_FL_PTFL_Detail2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\发料\frm_FL_LXFL_Detail2.resx">
+      <DependentUpon>frm_FL_LXFL_Detail2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\呆料\FRM_DL.resx">
+      <DependentUpon>FRM_DL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\呆料\FRM_TODL.resx">
+      <DependentUpon>FRM_TODL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\复检\frm_FJ.resx">
+      <DependentUpon>frm_FJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\复检\frm_FJ_JC.resx">
+      <DependentUpon>frm_FJ_JC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\复检\frm_FJ_JCHD.resx">
+      <DependentUpon>frm_FJ_JCHD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\复检\frm_FJ_XJ.resx">
+      <DependentUpon>frm_FJ_XJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\复检\frm_FJ_XJHD.resx">
+      <DependentUpon>frm_FJ_XJHD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\报废\frm_BF.resx">
+      <DependentUpon>frm_BF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\报废\frm_BFCANCEL.resx">
+      <DependentUpon>frm_BFCANCEL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\报废\frm_BFCK.resx">
+      <DependentUpon>frm_BFCK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\报废\frm_BFOUT.resx">
+      <DependentUpon>frm_BFOUT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\报废\FRM_BFSJ.resx">
+      <DependentUpon>FRM_BFSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\收料\FRM_SL_ZZPC.resx">
+      <DependentUpon>FRM_SL_ZZPC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\frm_CX.resx">
+      <DependentUpon>frm_CX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\frm_CX_CL.resx">
+      <DependentUpon>frm_CX_CL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\frm_CX_CWH.resx">
+      <DependentUpon>frm_CX_CWH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\frm_CX_CWH2.resx">
+      <DependentUpon>frm_CX_CWH2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\FRM_CX_CWH_GROUP.resx">
+      <DependentUpon>FRM_CX_CWH_GROUP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\frm_CX_Detail.resx">
+      <DependentUpon>frm_CX_Detail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\frm_CX_PC.resx">
+      <DependentUpon>frm_CX_PC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\查询\frm_CX_XH.resx">
+      <DependentUpon>frm_CX_XH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\frm_JC.resx">
+      <DependentUpon>frm_JC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\frm_JC_BCPSJ.resx">
+      <DependentUpon>frm_JC_BCPSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\呆料\FRM_DL_SJ.resx">
+      <DependentUpon>FRM_DL_SJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\FRM_JC_TLDL.resx">
+      <DependentUpon>FRM_JC_TLDL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\FRM_JC_TLSJ.resx">
+      <DependentUpon>FRM_JC_TLSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\frm_JC_WLSJ.resx">
+      <DependentUpon>frm_JC_WLSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\frm_JC_WLYD.resx">
+      <DependentUpon>frm_JC_WLYD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\frm_NewStock.resx">
+      <DependentUpon>frm_NewStock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\FRM_INBOX.resx">
+      <DependentUpon>FRM_INBOX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原材料\进仓\frm_WXSJ.resx">
+      <DependentUpon>frm_WXSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\frm_CP.resx">
+      <DependentUpon>frm_CP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_CPBH.resx">
+      <DependentUpon>FRM_CPBH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_CPJS.resx">
+      <DependentUpon>FRM_CPJS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_CPSJ.resx">
+      <DependentUpon>FRM_CPSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\frm_CP_MOVE.resx">
+      <DependentUpon>frm_CP_MOVE.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_KCQR.resx">
+      <DependentUpon>FRM_KCQR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_TK.resx">
+      <DependentUpon>FRM_TK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_CHQR.resx">
+      <DependentUpon>FRM_CHQR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_TBJC.resx">
+      <DependentUpon>FRM_TBJC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\FRM_CH_SCAN.resx">
+      <DependentUpon>FRM_CH_SCAN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\Other\frm_CP_Other_Fackbook.resx">
+      <DependentUpon>frm_CP_Other_Fackbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\尾数管理\frm_CPWS_Main.resx">
+      <DependentUpon>frm_CPWS_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\尾数管理\frm_CP_WSCKD.resx">
+      <DependentUpon>frm_CP_WSCKD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成品管理\尾数管理\frm_CP_WSRKD.resx">
+      <DependentUpon>frm_CP_WSRKD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBCWHQUERY.resx">
+      <DependentUpon>FRM_SBCWHQUERY.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBFL.resx">
+      <DependentUpon>FRM_SBFL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBJC.resx">
+      <DependentUpon>FRM_SBJC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBMANAGER.resx">
+      <DependentUpon>FRM_SBMANAGER.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBQUERY.resx">
+      <DependentUpon>FRM_SBQUERY.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBQXFL.resx">
+      <DependentUpon>FRM_SBQXFL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBSJ.resx">
+      <DependentUpon>FRM_SBSJ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备管理\FRM_SBYD.resx">
+      <DependentUpon>FRM_SBYD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_CODECHECK.resx">
+      <DependentUpon>FRM_CODECHECK.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_FLDDL.resx">
+      <DependentUpon>FRM_FLDDL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\frm_InputBack.resx">
+      <DependentUpon>frm_InputBack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\frm_InputBCP.resx">
+      <DependentUpon>frm_InputBCP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\frm_InputMateriel.resx">
+      <DependentUpon>frm_InputMateriel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\frm_inputQuery.resx">
+      <DependentUpon>frm_inputQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_JAE.resx">
+      <DependentUpon>FRM_JAE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\frm_Lot_Input.resx">
+      <DependentUpon>frm_Lot_Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\frm_Lot_ReBack.resx">
+      <DependentUpon>frm_Lot_ReBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_PLDDL.resx">
+      <DependentUpon>FRM_PLDDL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_SCAN.resx">
+      <DependentUpon>FRM_SCAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_SK_OUTPUT.resx">
+      <DependentUpon>FRM_SK_OUTPUT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_TM_COMPA.resx">
+      <DependentUpon>FRM_TM_COMPA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\frm_TM_QUERY.resx">
+      <DependentUpon>frm_TM_QUERY.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_USERID.resx">
+      <DependentUpon>FRM_USERID.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_USER_PD.resx">
+      <DependentUpon>FRM_USER_PD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="车间管理\FRM_WORKSHOP.resx">
+      <DependentUpon>FRM_WORKSHOP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DataService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="_上架信息.cs" />
+    <Compile Include="_上架信息集合.cs" />
+    <Compile Include="_上架类型.cs" />
+    <Compile Include="_发料单信息.cs" />
+    <Compile Include="_发料单信息集合.cs" />
+    <Compile Include="_发料单材料信息.cs" />
+    <Compile Include="_发料单材料信息集合.cs" />
+    <Compile Include="_发料点料信息.cs" />
+    <Compile Include="_发料点料信息集合.cs" />
+    <Compile Include="_发料箱号信息.cs" />
+    <Compile Include="_发料箱号信息集合.cs" />
+    <Compile Include="_批次信息.cs" />
+    <Compile Include="_批次信息集合.cs" />
+    <Compile Include="_点料信息.cs" />
+    <Compile Include="_点料信息集合.cs" />
+    <Compile Include="不良品\FRM_BLP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLP.designer.cs">
+      <DependentUpon>FRM_BLP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPBCPBF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPBCPBF.designer.cs">
+      <DependentUpon>FRM_BLPBCPBF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPBCPSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPBCPSJ.designer.cs">
+      <DependentUpon>FRM_BLPBCPSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPBF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPBF.designer.cs">
+      <DependentUpon>FRM_BLPBF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPFJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPFJ.designer.cs">
+      <DependentUpon>FRM_BLPFJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPFL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPFL.designer.cs">
+      <DependentUpon>FRM_BLPFL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLPSJ.designer.cs">
+      <DependentUpon>FRM_BLPSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_BLP_QUERY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_BLP_QUERY.designer.cs">
+      <DependentUpon>FRM_BLP_QUERY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_TH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_TH.designer.cs">
+      <DependentUpon>FRM_TH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD.designer.cs">
+      <DependentUpon>FRM_THQD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_BCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_BCP.designer.cs">
+      <DependentUpon>FRM_THQD_BCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_CANCEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_CANCEL.designer.cs">
+      <DependentUpon>FRM_THQD_CANCEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_FINISH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_FINISH.designer.cs">
+      <DependentUpon>FRM_THQD_FINISH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_SJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="不良品\FRM_THQD_SJ.designer.cs">
+      <DependentUpon>FRM_THQD_SJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="半成品\frm_BCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="半成品\frm_BCP.designer.cs">
+      <DependentUpon>frm_BCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="半成品\frm_BCPBF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="半成品\frm_BCPBF.designer.cs">
+      <DependentUpon>frm_BCPBF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="半成品\frm_BCPFL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="半成品\frm_BCPFL.designer.cs">
+      <DependentUpon>frm_BCPFL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="半成品\frm_BCPSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="半成品\frm_BCPSJ.designer.cs">
+      <DependentUpon>frm_BCPSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="半成品\frm_BCPYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="半成品\frm_BCPYD.designer.cs">
+      <DependentUpon>frm_BCPYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\frm_Main.designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\不良品\frm_BLP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\不良品\frm_BLP.designer.cs">
+      <DependentUpon>frm_BLP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\不良品\frm_BLPCK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\不良品\frm_BLPCK.designer.cs">
+      <DependentUpon>frm_BLPCK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\不良品\frm_BLPRK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\不良品\frm_BLPRK.designer.cs">
+      <DependentUpon>frm_BLPRK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ.designer.cs">
+      <DependentUpon>frm_BQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ_Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ_Copy.designer.cs">
+      <DependentUpon>frm_BQ_Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ_NewMade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ_NewMade.designer.cs">
+      <DependentUpon>frm_BQ_NewMade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ_Split.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\制作标签\frm_BQ_Split.designer.cs">
+      <DependentUpon>frm_BQ_Split.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL.designer.cs">
+      <DependentUpon>frm_FL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_BCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_BCP.designer.cs">
+      <DependentUpon>frm_FL_BCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_LXFL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_LXFL.designer.cs">
+      <DependentUpon>frm_FL_LXFL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_LXFL_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_LXFL_Detail.designer.cs">
+      <DependentUpon>frm_FL_LXFL_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_FL_PCCONTROL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_FL_PCCONTROL.Designer.cs">
+      <DependentUpon>FRM_FL_PCCONTROL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_PTFL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_PTFL.Designer.cs">
+      <DependentUpon>frm_FL_PTFL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_PTFL_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_PTFL_Detail.Designer.cs">
+      <DependentUpon>frm_FL_PTFL_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_FULIAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_FULIAO.designer.cs">
+      <DependentUpon>FRM_FULIAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_ShowFld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_ShowFld.designer.cs">
+      <DependentUpon>frm_ShowFld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_ShowPld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_ShowPld.designer.cs">
+      <DependentUpon>frm_ShowPld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_YB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_YB.designer.cs">
+      <DependentUpon>FRM_YB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_YBWP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_YBWP.designer.cs">
+      <DependentUpon>frm_YBWP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_YBWP_CANCEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\FRM_YBWP_CANCEL.designer.cs">
+      <DependentUpon>FRM_YBWP_CANCEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_PTFL_Detail2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_PTFL_Detail2.Designer.cs">
+      <DependentUpon>frm_FL_PTFL_Detail2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_LXFL_Detail2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\发料\frm_FL_LXFL_Detail2.designer.cs">
+      <DependentUpon>frm_FL_LXFL_Detail2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\呆料\FRM_DL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\呆料\FRM_DL.designer.cs">
+      <DependentUpon>FRM_DL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\呆料\FRM_TODL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\呆料\FRM_TODL.designer.cs">
+      <DependentUpon>FRM_TODL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ.designer.cs">
+      <DependentUpon>frm_FJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_JC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_JC.designer.cs">
+      <DependentUpon>frm_FJ_JC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_JCHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_JCHD.designer.cs">
+      <DependentUpon>frm_FJ_JCHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_XJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_XJ.designer.cs">
+      <DependentUpon>frm_FJ_XJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_XJHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\复检\frm_FJ_XJHD.designer.cs">
+      <DependentUpon>frm_FJ_XJHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BF.designer.cs">
+      <DependentUpon>frm_BF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BFCANCEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BFCANCEL.designer.cs">
+      <DependentUpon>frm_BFCANCEL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BFCK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BFCK.designer.cs">
+      <DependentUpon>frm_BFCK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BFOUT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\报废\frm_BFOUT.designer.cs">
+      <DependentUpon>frm_BFOUT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\报废\FRM_BFSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\报废\FRM_BFSJ.Designer.cs">
+      <DependentUpon>FRM_BFSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\收料\FRM_SL_ZZPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\收料\FRM_SL_ZZPC.Designer.cs">
+      <DependentUpon>FRM_SL_ZZPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX.designer.cs">
+      <DependentUpon>frm_CX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_CL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_CL.designer.cs">
+      <DependentUpon>frm_CX_CL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_CWH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_CWH.designer.cs">
+      <DependentUpon>frm_CX_CWH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_CWH2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_CWH2.designer.cs">
+      <DependentUpon>frm_CX_CWH2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\FRM_CX_CWH_GROUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\FRM_CX_CWH_GROUP.designer.cs">
+      <DependentUpon>FRM_CX_CWH_GROUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_Detail.designer.cs">
+      <DependentUpon>frm_CX_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_PC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_PC.designer.cs">
+      <DependentUpon>frm_CX_PC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_XH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\查询\frm_CX_XH.designer.cs">
+      <DependentUpon>frm_CX_XH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC.designer.cs">
+      <DependentUpon>frm_JC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC_BCPSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC_BCPSJ.Designer.cs">
+      <DependentUpon>frm_JC_BCPSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\呆料\FRM_DL_SJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\呆料\FRM_DL_SJ.Designer.cs">
+      <DependentUpon>FRM_DL_SJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\FRM_JC_TLDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\FRM_JC_TLDL.Designer.cs">
+      <DependentUpon>FRM_JC_TLDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\FRM_JC_TLSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\FRM_JC_TLSJ.Designer.cs">
+      <DependentUpon>FRM_JC_TLSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC_WLSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC_WLSJ.designer.cs">
+      <DependentUpon>frm_JC_WLSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC_WLYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_JC_WLYD.designer.cs">
+      <DependentUpon>frm_JC_WLYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_NewStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_NewStock.designer.cs">
+      <DependentUpon>frm_NewStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\FRM_INBOX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\FRM_INBOX.designer.cs">
+      <DependentUpon>FRM_INBOX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_WXSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原材料\进仓\frm_WXSJ.designer.cs">
+      <DependentUpon>frm_WXSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\frm_CP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\frm_CP.Designer.cs">
+      <DependentUpon>frm_CP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_CPBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_CPBH.Designer.cs">
+      <DependentUpon>FRM_CPBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_CPJS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_CPJS.Designer.cs">
+      <DependentUpon>FRM_CPJS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_CPSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_CPSJ.Designer.cs">
+      <DependentUpon>FRM_CPSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\frm_CP_MOVE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\frm_CP_MOVE.Designer.cs">
+      <DependentUpon>frm_CP_MOVE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_KCQR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_KCQR.Designer.cs">
+      <DependentUpon>FRM_KCQR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_TK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_TK.Designer.cs">
+      <DependentUpon>FRM_TK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_CHQR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_CHQR.Designer.cs">
+      <DependentUpon>FRM_CHQR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_TBJC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_TBJC.Designer.cs">
+      <DependentUpon>FRM_TBJC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\FRM_CH_SCAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\FRM_CH_SCAN.Designer.cs">
+      <DependentUpon>FRM_CH_SCAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\Other\frm_CP_Other_Fackbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\Other\frm_CP_Other_Fackbook.Designer.cs">
+      <DependentUpon>frm_CP_Other_Fackbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\尾数管理\frm_CPWS_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\尾数管理\frm_CPWS_Main.Designer.cs">
+      <DependentUpon>frm_CPWS_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\尾数管理\frm_CP_WSCKD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\尾数管理\frm_CP_WSCKD.Designer.cs">
+      <DependentUpon>frm_CP_WSCKD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成品管理\尾数管理\frm_CP_WSRKD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成品管理\尾数管理\frm_CP_WSRKD.Designer.cs">
+      <DependentUpon>frm_CP_WSRKD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBCWHQUERY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBCWHQUERY.Designer.cs">
+      <DependentUpon>FRM_SBCWHQUERY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBFL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBFL.Designer.cs">
+      <DependentUpon>FRM_SBFL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBJC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBJC.Designer.cs">
+      <DependentUpon>FRM_SBJC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBMANAGER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBMANAGER.Designer.cs">
+      <DependentUpon>FRM_SBMANAGER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBQUERY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBQUERY.Designer.cs">
+      <DependentUpon>FRM_SBQUERY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBQXFL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBQXFL.Designer.cs">
+      <DependentUpon>FRM_SBQXFL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBSJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBSJ.Designer.cs">
+      <DependentUpon>FRM_SBSJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备管理\FRM_SBYD.Designer.cs">
+      <DependentUpon>FRM_SBYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_CODECHECK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_CODECHECK.Designer.cs">
+      <DependentUpon>FRM_CODECHECK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_FLDDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_FLDDL.Designer.cs">
+      <DependentUpon>FRM_FLDDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\frm_InputBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\frm_InputBack.designer.cs">
+      <DependentUpon>frm_InputBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\frm_InputBCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\frm_InputBCP.Designer.cs">
+      <DependentUpon>frm_InputBCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\frm_InputMateriel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\frm_InputMateriel.designer.cs">
+      <DependentUpon>frm_InputMateriel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\frm_inputQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\frm_inputQuery.Designer.cs">
+      <DependentUpon>frm_inputQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_JAE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_JAE.Designer.cs">
+      <DependentUpon>FRM_JAE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\frm_Lot_Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\frm_Lot_Input.Designer.cs">
+      <DependentUpon>frm_Lot_Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\frm_Lot_ReBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\frm_Lot_ReBack.Designer.cs">
+      <DependentUpon>frm_Lot_ReBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_PLDDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_PLDDL.Designer.cs">
+      <DependentUpon>FRM_PLDDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_SCAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_SCAN.Designer.cs">
+      <DependentUpon>FRM_SCAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_SK_OUTPUT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_SK_OUTPUT.Designer.cs">
+      <DependentUpon>FRM_SK_OUTPUT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_TM_COMPA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_TM_COMPA.Designer.cs">
+      <DependentUpon>FRM_TM_COMPA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\frm_TM_QUERY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\frm_TM_QUERY.Designer.cs">
+      <DependentUpon>frm_TM_QUERY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_USERID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_USERID.Designer.cs">
+      <DependentUpon>FRM_USERID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_USER_PD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_USER_PD.Designer.cs">
+      <DependentUpon>FRM_USER_PD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="车间管理\FRM_WORKSHOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="车间管理\FRM_WORKSHOP.designer.cs">
+      <DependentUpon>FRM_WORKSHOP.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://200.200.200.200/BarCode/Service1.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\DataService\</RelPath>
+      <UpdateFromURL>http://200.200.200.200/BarCode/Service1.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Web References\DataService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DataService\ReturnClass1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DataService\Service1.disco" />
+    <None Include="Web References\DataService\Service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Media\NG.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\OK.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
