@@ -13,10 +13,18 @@ namespace BarCode.成品管理.Other
     public partial class frm_CP_Other_Fackbook : Form
     {
         private string cpbh = "";
+        private string path_dt, path_sl, path_gp;   //导通、烧录、高频目录
+        private string[] paths_dt, paths_sl, paths_gp;
 
         public frm_CP_Other_Fackbook()
         {
             InitializeComponent();
+            this.path_dt = DataClass.GetValue("select [value] from WiseMis_Setting where [key]='导通目录'").ToString();
+            this.path_sl = DataClass.GetValue("select [value] from WiseMis_Setting where [key]='烧录目录'").ToString();
+            this.path_gp = DataClass.GetValue("select [value] from WiseMis_Setting where [key]='高频目录'").ToString();
+            this.paths_dt = this.path_dt.Split(new char[]{','});
+            this.paths_sl = this.path_sl.Split(new char[] { ',' });
+            this.paths_gp = this.path_gp.Split(new char[] { ',' });
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -66,6 +74,13 @@ namespace BarCode.成品管理.Other
                         if (this.CheckFiles(path1, xhtm, ref file) == 1)
                             return 1;
                     }
+
+                    paths = Directory.GetDirectories(path, "*" + xhtm + "*");
+                    foreach (string path1 in paths)
+                    {
+                        if (this.CheckFiles(path1, xhtm, ref file) == 1)
+                            return 1;
+                    }
                     return 0;
                 }
             }
@@ -91,7 +106,7 @@ namespace BarCode.成品管理.Other
 
                 string file1="",file2="",file3="";
                 //导通检查
-                switch(this.CheckFiles("\\\\easytouch-pc\\QSFP  Test data",strXHTM,ref file1))
+                switch(this.CheckFiles(this.paths_dt,strXHTM,ref file1))
                 {
                     case 1:
                         this.checkBox1.Checked=true;
@@ -107,7 +122,7 @@ namespace BarCode.成品管理.Other
                 }
 
                 //烧录检查
-                switch (this.CheckFiles("\\\\qsfp\\Data", strXHTM,ref file2))
+                switch (this.CheckFiles(this.paths_sl, strXHTM,ref file2))
                 {
                     case 1:
                         this.checkBox2.Checked = true;
@@ -123,7 +138,7 @@ namespace BarCode.成品管理.Other
                 }
 
                 //高频检查
-                switch (this.CheckFiles(new string[]{"\\\\PNA\\3M","\\\\agilent\\3M"}, strXHTM,ref file3))
+                switch (this.CheckFiles(this.paths_gp, strXHTM,ref file3))
                 {
                     case 1:
                         this.checkBox3.Checked = true;

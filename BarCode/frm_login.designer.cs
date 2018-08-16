@@ -94,7 +94,7 @@
             this.label3.Location = new System.Drawing.Point(25, 220);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(183, 20);
-            this.label3.Text = "更新日期：2018.08.06";
+            this.label3.Text = "更新日期：2018.08.16";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label3.ParentChanged += new System.EventHandler(this.label3_ParentChanged);
             // 

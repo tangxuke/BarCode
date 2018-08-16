@@ -1,0 +1,1 @@
+copy "\\ntserver\d$\software\惠昌管理系统\SourceCode\BarCode\BarCode\bin\Release\BarCode.exe" "\Program Files\BarCode\BarCode.exe"
